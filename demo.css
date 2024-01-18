@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+}
+h1 {
+    padding: 1rem 2rem;
+    background-color: aqua;
+    color: brown;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+h1:hover {
+    background-color: aquamarine;
+}
+button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 0.4s;
+}
+button:hover {
+    background-color: bisque;
+
+}
